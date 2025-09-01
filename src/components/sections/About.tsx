@@ -90,7 +90,7 @@ const About: React.FC = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-xl opacity-75 animate-pulse"></div>
               <motion.img
-                src="/dist/assets/profile2.png"
+                src="/profile2.png"
                 alt="Profile"
                 className="relative w-80 h-80 object-cover rounded-full border-4 border-white/20 shadow-2xl"
                 whileHover={{ rotate: 5 }}

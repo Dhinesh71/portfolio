@@ -9,7 +9,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'JWT', 'Tailwind CSS'],
     githubUrl: 'https://github.com/Dhinesh71/print_Receipt_project1',
     liveUrl: 'https://print-receipt-project1.vercel.app/login',
-    imageUrl: '/src/data/p1.png',
+    imageUrl: '/p1.png',
     featured: true
   },
   
