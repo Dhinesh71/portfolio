@@ -123,9 +123,11 @@ const Projects: React.FC = () => {
                   </div>
 
                   <div className="flex space-x-3">
-                    <AnimatedButton variant="outline" className="text-sm px-4 py-2">
-                      View Demo
-                    </AnimatedButton>
+                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                      <AnimatedButton variant="outline" className="text-sm px-4 py-2">
+                        View Demo
+                      </AnimatedButton>
+                    </a>
                    
                   </div>
                 </div>

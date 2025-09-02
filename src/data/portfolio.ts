@@ -8,7 +8,8 @@ export const projects: Project[] = [
     longDescription: 'Automatically generate the total bill. The system is designed for quick calculations and easy printing, eliminating manual effort.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'JWT', 'Tailwind CSS'],
     githubUrl: 'https://github.com/Dhinesh71/print_Receipt_project1',
-    liveUrl: 'https://print-receipt-project1.vercel.app/login',
+    liveUrl: 'https://print-receipt-project1.vercel.app/',
+    demoUrl: 'https://print-receipt-project1.vercel.app/',
     imageUrl: '/p1.png',
     featured: true
   },
