@@ -6,11 +6,35 @@ export const projects: Project[] = [
     title: 'Laundry Shop Billing',
     description: 'Full-stack MERN instant bill generation, and print-ready invoices.',
     longDescription: 'Automatically generate the total bill. The system is designed for quick calculations and easy printing, eliminating manual effort.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'JWT', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/Dhinesh71/print_Receipt_project1',
-    liveUrl: 'https://print-receipt-project1.vercel.app/',
-    demoUrl: 'https://print-receipt-project1.vercel.app/',
+    technologies: ['React', 'Node.js', 'Supabase', 'Express','Tailwind CSS'],
+    githubUrl: 'https://github.com/Dhinesh71/DRYWASH_WEBAPP',
+    liveUrl: 'https://drywash.vercel.app/',
+    demoUrl: 'https://drywash.vercel.app/',
     imageUrl: '/p1.png',
+    featured: true
+  },
+  {
+    id: '2',
+    title: 'Quizz Master',
+    description: 'Full-stack MERN quiz application with real-time collaboration features.',
+    longDescription: 'A platform for creating, sharing, and taking quizzes. It includes real-time collaboration tools for group study sessions.',
+    technologies: ['React', 'Node.js', 'Supabase', 'Express','Tailwind CSS'],
+    githubUrl: 'https://github.com/Dhinesh71/quizz-master',
+    liveUrl: 'https://quizz-master-two.vercel.app/',
+    demoUrl: 'https://quizz-master-two.vercel.app/',
+    imageUrl: '/p2.png',
+    featured: true
+  },
+  {
+    id: '3',
+    title: 'Bus Tracking System',
+    description: 'Full-stack MERN bus tracking application with real-time GPS tracking features.',
+    longDescription: 'A platform for tracking buses in real-time, providing users with accurate arrival times and route information.',
+    technologies: ['React', 'Node.js', 'Supabase', 'Express','Tailwind CSS'],
+    githubUrl: 'https://github.com/bustracker94-glitch/bustracker',
+    liveUrl: 'https://bustracker-ivory.vercel.app/buses',
+    demoUrl: 'https://bustracker-ivory.vercel.app/buses',
+    imageUrl: '/p3.png',
     featured: true
   },
   
@@ -23,20 +47,16 @@ export const skills: Skill[] = [
   { name: 'TypeScript', level: 90, category: 'Frontend', icon: 'Binary' },
   { name: 'Next.js', level: 88, category: 'Frontend', icon: 'RocketLaunch' },
   { name: 'Tailwind CSS', level: 92, category: 'Frontend', icon: 'Paintbrush' },
-  { name: 'Framer Motion', level: 85, category: 'Frontend', icon: 'MousePointer' },
+  // { name: 'Framer Motion', level: 85, category: 'Frontend', icon: 'MousePointer' },
   
   // Backend
   { name: 'Node.js', level: 90, category: 'Backend', icon: 'CPU' },
   { name: 'Express.js', level: 88, category: 'Backend', icon: 'Webhook' },
   { name: 'MongoDB', level: 85, category: 'Backend', icon: 'Database' },
   { name: 'PostgreSQL', level: 82, category: 'Backend', icon: 'TableProperties' },
-  { name: 'REST APIs', level: 92, category: 'Backend', icon: 'Network' },
+  // { name: 'REST APIs', level: 92, category: 'Backend', icon: 'Network' },
   
-  // Tools
-  { name: 'Git', level: 90, category: 'Tools', icon: 'GitFork' },
-  { name: 'Docker', level: 78, category: 'Tools', icon: 'Container' },
-  { name: 'AWS', level: 75, category: 'Tools', icon: 'CloudCog' },
-  { name: 'Figma', level: 88, category: 'Tools', icon: 'Pen' },
+
   
   // Soft Skills
   { name: 'Problem Solving', level: 95, category: 'Soft Skills', icon: 'Lightbulb' },

@@ -29,7 +29,7 @@ const Skills: React.FC = () => {
     }
   };
 
-  const categories = ['Frontend', 'Backend', 'Tools', 'Soft Skills'] as const;
+  const categories = ['Frontend', 'Backend', 'Soft Skills'] as const;
 
   return (
     <section id="skills" className="py-20 relative" ref={ref}>
@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
           Skills & Expertise
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {categories.map((category, categoryIndex) => (
             <motion.div
               key={category}
@@ -68,13 +68,13 @@ const Skills: React.FC = () => {
                     
                     return (
                       <motion.div key={skill.name} variants={cardVariants}>
-                        <GlassmorphicCard className="p-4">
+                        <GlassmorphicCard className="p-4 min-w-[260px] min-h-[70px] flex items-center">
                           <motion.div
                             className="flex items-center justify-between mb-3"
                             whileHover={{ scale: 1.02 }}
                           >
                             <div className="flex items-center space-x-3">
-                              {IconComponent && <IconComponent size={20} className="text-purple-400" />}
+                              {IconComponent && <IconComponent size={30} className="text-purple-400" />}
                               <span className="text-white font-medium">{skill.name}</span>
                             </div>
                           </motion.div>
